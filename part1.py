@@ -33,7 +33,7 @@ y.describe()
 
 print("[6] Spliting the Dataset in train test for both x & y")
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.35)
-len(x_train), len(x_test), len(y_train), len(y_test)
+# print(len(x_train), len(x_test), len(y_train), len(y_test))
 
 print("[7] Converting inputs to np arrays")
 X_train = np.array([
@@ -129,10 +129,12 @@ print("\n############################################ LOG FILE #################
 pp.pprint(log)
 
 print("\n######################################## BEST HYPERPARAMETERS ############################################\n")
-print("""\nLearning Rate  = 0.01\nNo. of Iteration = 100000 \nTolorance = 1e-4""")
-print("\nWEIGHTS        : [5.60755747 0.03350934 0.08643086 0.12718095 0.38175852]")
-print("\nTRAINING ERROR : [0.4889196807512065, 0.5268462746603718, 0.290933869220359]")
-print("\nTESTING ERROR  : [0.4702540945119479, 0.540343198696131, 0.28284596779897064]")
+print("\nLearning Rate     : 0.01")
+print("\nNo. of Iteration  : 100000")
+print("\nTolorance         : 1e-4")
+print("\nWEIGHTS           : [5.60755747 0.03350934 0.08643086 0.12718095 0.38175852]")
+print("\nTRAINING ERROR    : ['MSE': 0.4889196807512065, 'MAE': 0.5268462746603718, 'R**2': 0.290933869220359]")
+print("\nTESTING ERROR     : ['MSE': 0.4702540945119479, 'MAE': 0.5403431986961312, 'R**2': 0.2828459677989706]")
 
 print("\n################################### PLOTS FOR BEST HYPERPARAMETERS #######################################\n")
 
