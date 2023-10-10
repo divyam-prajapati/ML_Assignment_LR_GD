@@ -1,7 +1,7 @@
-# ML Assignment: Linear Regression using Gradient Descent
+# ML Assignment 1: Linear Regression using Gradient Descent
+# ML Assignment 2: Neural Networks
 
 - Machine Learning 6375.004 
-- Assignment No. 1 
 - Divyam Prajapati and Maneesh Reddy 
 
 ## How To run 
